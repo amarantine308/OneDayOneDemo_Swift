@@ -15,6 +15,11 @@
 		6733DA5E1F627DB000D00799 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6733DA5C1F627DB000D00799 /* LaunchScreen.storyboard */; };
 		6733DA691F627DB000D00799 /* CustomFontTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6733DA681F627DB000D00799 /* CustomFontTests.swift */; };
 		6733DA741F627DB000D00799 /* CustomFontUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6733DA731F627DB000D00799 /* CustomFontUITests.swift */; };
+		6733DA881F62937B00D00799 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6733DA871F62937B00D00799 /* AppDelegate.swift */; };
+		6733DA8A1F62937B00D00799 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6733DA891F62937B00D00799 /* ViewController.swift */; };
+		6733DA8D1F62937B00D00799 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6733DA8B1F62937B00D00799 /* Main.storyboard */; };
+		6733DA8F1F62937B00D00799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6733DA8E1F62937B00D00799 /* Assets.xcassets */; };
+		6733DA921F62937B00D00799 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6733DA901F62937B00D00799 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,13 @@
 		6733DA6F1F627DB000D00799 /* CustomFontUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomFontUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6733DA731F627DB000D00799 /* CustomFontUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFontUITests.swift; sourceTree = "<group>"; };
 		6733DA751F627DB000D00799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6733DA851F62937B00D00799 /* WatchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6733DA871F62937B00D00799 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6733DA891F62937B00D00799 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6733DA8C1F62937B00D00799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6733DA8E1F62937B00D00799 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6733DA911F62937B00D00799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6733DA931F62937B00D00799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71BE62FCA15A69A6DE1F0CF3 /* Pods-CustomFont.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomFont.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomFont/Pods-CustomFont.release.xcconfig"; sourceTree = "<group>"; };
 		8B3B2550C0764B6D77DA4887 /* Pods_CustomFont.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomFont.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -78,6 +90,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6733DA821F62937B00D00799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -87,6 +106,7 @@
 				6733DA521F627DB000D00799 /* CustomFont */,
 				6733DA671F627DB000D00799 /* CustomFontTests */,
 				6733DA721F627DB000D00799 /* CustomFontUITests */,
+				6733DA861F62937B00D00799 /* WatchDemo */,
 				6733DA511F627DB000D00799 /* Products */,
 				C8AEEBB016F63D6331EB491A /* Pods */,
 				D360A253B8104387D5F7387E /* Frameworks */,
@@ -99,6 +119,7 @@
 				6733DA501F627DB000D00799 /* CustomFont.app */,
 				6733DA641F627DB000D00799 /* CustomFontTests.xctest */,
 				6733DA6F1F627DB000D00799 /* CustomFontUITests.xctest */,
+				6733DA851F62937B00D00799 /* WatchDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,6 +153,19 @@
 				6733DA751F627DB000D00799 /* Info.plist */,
 			);
 			path = CustomFontUITests;
+			sourceTree = "<group>";
+		};
+		6733DA861F62937B00D00799 /* WatchDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6733DA871F62937B00D00799 /* AppDelegate.swift */,
+				6733DA891F62937B00D00799 /* ViewController.swift */,
+				6733DA8B1F62937B00D00799 /* Main.storyboard */,
+				6733DA8E1F62937B00D00799 /* Assets.xcassets */,
+				6733DA901F62937B00D00799 /* LaunchScreen.storyboard */,
+				6733DA931F62937B00D00799 /* Info.plist */,
+			);
+			path = WatchDemo;
 			sourceTree = "<group>";
 		};
 		C8AEEBB016F63D6331EB491A /* Pods */ = {
@@ -212,6 +246,23 @@
 			productReference = 6733DA6F1F627DB000D00799 /* CustomFontUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		6733DA841F62937B00D00799 /* WatchDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6733DA961F62937B00D00799 /* Build configuration list for PBXNativeTarget "WatchDemo" */;
+			buildPhases = (
+				6733DA811F62937B00D00799 /* Sources */,
+				6733DA821F62937B00D00799 /* Frameworks */,
+				6733DA831F62937B00D00799 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatchDemo;
+			productName = WatchDemo;
+			productReference = 6733DA851F62937B00D00799 /* WatchDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -237,6 +288,10 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 6733DA4F1F627DB000D00799;
 					};
+					6733DA841F62937B00D00799 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 6733DA4B1F627DB000D00799 /* Build configuration list for PBXProject "CustomFont" */;
@@ -255,6 +310,7 @@
 				6733DA4F1F627DB000D00799 /* CustomFont */,
 				6733DA631F627DB000D00799 /* CustomFontTests */,
 				6733DA6E1F627DB000D00799 /* CustomFontUITests */,
+				6733DA841F62937B00D00799 /* WatchDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -281,6 +337,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6733DA831F62937B00D00799 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6733DA921F62937B00D00799 /* LaunchScreen.storyboard in Resources */,
+				6733DA8F1F62937B00D00799 /* Assets.xcassets in Resources */,
+				6733DA8D1F62937B00D00799 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +426,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6733DA811F62937B00D00799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6733DA8A1F62937B00D00799 /* ViewController.swift in Sources */,
+				6733DA881F62937B00D00799 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -388,6 +463,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				6733DA5D1F627DB000D00799 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6733DA8B1F62937B00D00799 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6733DA8C1F62937B00D00799 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6733DA901F62937B00D00799 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6733DA911F62937B00D00799 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -572,6 +663,30 @@
 			};
 			name = Release;
 		};
+		6733DA941F62937B00D00799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WatchDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QM.WatchDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6733DA951F62937B00D00799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WatchDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QM.WatchDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -591,6 +706,7 @@
 				6733DA7A1F627DB000D00799 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6733DA7B1F627DB000D00799 /* Build configuration list for PBXNativeTarget "CustomFontTests" */ = {
 			isa = XCConfigurationList;
@@ -599,12 +715,22 @@
 				6733DA7D1F627DB000D00799 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6733DA7E1F627DB000D00799 /* Build configuration list for PBXNativeTarget "CustomFontUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6733DA7F1F627DB000D00799 /* Debug */,
 				6733DA801F627DB000D00799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6733DA961F62937B00D00799 /* Build configuration list for PBXNativeTarget "WatchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6733DA941F62937B00D00799 /* Debug */,
+				6733DA951F62937B00D00799 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
